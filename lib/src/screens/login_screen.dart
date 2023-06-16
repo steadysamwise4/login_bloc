@@ -24,9 +24,9 @@ class LoginScreen extends StatelessWidget {
     return const TextField(
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
-        hintText: 'you@example.com',
-        labelText: 'Email Address',
-      ),
+          hintText: 'you@example.com',
+          labelText: 'Email Address',
+          errorText: 'Email invalid!'),
     );
   }
 
